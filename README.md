@@ -12,8 +12,8 @@ CodeAgent 是一个轻量但完整的代码助手 Agent。它能够：
 
 特性
 
-|       特性       |                                   说明                                |
-|                    |                                                                          |
+| 特性 | 说明 |
+|------|------|
 | Agent 循环 | 输入 → 推理 → 工具调用 → 输出，支持多轮工具调用 |
 | 工具集成 | 内置 read_file / list_dir / run_code / search_code 四种工具 |
 | LLM 兼容 | 兼容任意 OpenAI 兼容接口（OpenAI / 通义千问 / 本地 Ollama 等） |
@@ -100,4 +100,3 @@ CodeAgent/
 License
 
 MIT —— 仅供课程作业与学习使用。
-# HomeWork1

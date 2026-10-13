@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# 运行时产生的临时文件
+*.log
+_demo_*.py
+
+# IDE
+.idea/
+.vscode/
+
+# 系统
+Thumbs.db
+.DS_Store
