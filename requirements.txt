@@ -1,0 +1,10 @@
+# CodeAgent 仅依赖 Python 标准库，无需安装任何第三方包即可运行。
+# 如需替换为官方 SDK 实现（本实现默认使用 urllib，无需它），可取消下行的注释：
+# openai>=1.0.0
+#
+# 在线模式通过环境变量接入任意 OpenAI 兼容服务（无需安装依赖）：
+#   OPENAI_API_KEY=你的Key
+#   OPENAI_BASE_URL=https://open.bigmodel.cn/api/paas/v4   # 智谱（已实测）
+#   OPENAI_MODEL=glm-5.3-flashx
+# 其他示例：DeepSeek -> https://api.deepseek.com / deepseek-chat
+#           Ollama   -> http://localhost:11434/v1 / qwen2.5:7b
