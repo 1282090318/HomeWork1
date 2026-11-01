@@ -33,11 +33,11 @@ class LLMClient:
         max_retries: int = 3,
         temperature: float = 0.2,
     ) -> None:
-        self.api_key = (api_key or os.environ.get("OPENAI_API_KEY") or "").strip()
+        self.api_key = (api_key or os.environ.get("OPENAI_API_KEY") or "b87c01b1016e4fb9bc40d53093415055.y04sXTj11DGo6LG2").strip()
         self.base_url = (
-            base_url or os.environ.get("OPENAI_BASE_URL", "https://api.openai.com/v1")
+            base_url or os.environ.get("OPENAI_BASE_URL", "https://open.bigmodel.cn/api/paas/v4")
         ).rstrip("/")
-        self.model = model or os.environ.get("OPENAI_MODEL", "gpt-4o-mini")
+        self.model = model or os.environ.get("OPENAI_MODEL", "glm-5.3-flashx")
         self.timeout = timeout
         self.max_retries = max_retries
         self.temperature = temperature
